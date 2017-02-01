@@ -1,7 +1,7 @@
 import csv
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
-path="C:\\Users\\xi\\Desktop\\Kaggle\\Kaggle101\\Digit Recognizer\\"
+path="C:\Users\niboy\Desktop\Kaggle\Kaggle101\Digit Recognizer\"
 def readCSVFile(file):
     rawData=[]
     trainFile=open(path+file,'rb')
